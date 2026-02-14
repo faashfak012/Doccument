@@ -1,1 +1,14 @@
+Download jadx.zip 
+Unzip jadz.zip
 
+sudo mv jadx /opt/jadx
+
+(Professional Setup) run from any path
+
+1️⃣ Make the real executables runnable
+sudo chmod +x /opt/jadx/bin/jadx
+sudo chmod +x /opt/jadx/bin/jadx-gui
+
+2️⃣ Create global commands (run from anywhere)
+sudo ln -s /opt/jadx/bin/jadx /usr/local/bin/jadx
+sudo ln -s /opt/jadx/bin/jadx-gui /usr/local/bin/jadx-gui
