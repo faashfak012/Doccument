@@ -1,0 +1,12 @@
+Download ApkTool.jar file and apktool
+
+Move to /opt (Professional Location)
+sudo mkdir -p /opt/apktool
+sudo mv apktool_*.jar /opt/apktool/apktool.jar
+sudo mv apktool /opt/apktool/
+
+✅ Step 4 — Make Executable
+sudo chmod +x /opt/apktool/apktool
+
+test
+apktool
